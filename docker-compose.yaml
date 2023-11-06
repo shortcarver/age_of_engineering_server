@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  mcserver:
+    image: minecraft-server
+    volumes:
+      - ./world:/mc/world
+      - ./logs:/mc/logs
