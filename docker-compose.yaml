@@ -7,5 +7,6 @@ services:
     ports:
       - 25565:25565
     volumes:
-      - ./world:/mc/world
-      - ./logs:/mc/logs
+      - ./mounts/world:/mc/world
+      - ./mounts/logs:/mc/logs
+      - ./mounts/backups:/mc/backups
